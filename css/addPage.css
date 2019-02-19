@@ -1,0 +1,166 @@
+body{
+	background: #f3f3f3;
+}
+
+.ver{
+	width: 2px;
+	height: inherit;
+	background: #f3f3f3;
+	float: left;
+	margin-left: 10px;
+}
+
+.nav-confirm{
+	width: 100%;
+	height: 50px;
+}
+
+.nav-confirm .fa-close{
+	font-size: 36px;
+	color: #999999;
+	line-height: 50px;
+	float: left;
+	margin-left: 25px;
+}
+
+.nav-confirm .fa-check{
+	font-size: 36px;
+	color: #1DBF96;
+	line-height: 50px;
+	float: right;
+	margin-right: 25px;
+}
+
+
+.price-input{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+}
+
+.price-input .mem-pic{
+	width: 36px;
+	height: 36px;
+	float: left;
+	margin-left: 25px;
+	margin-top: 7px;
+	border-radius: 18px;
+	overflow: hidden;
+}
+
+.price-input .price{
+	display: block;
+	float: right;
+	width: 50%;
+	height: 48px;
+	line-height: 48px;
+	font-size: 20px;
+	border: none;
+	outline: none;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.container{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.container p{
+	float: left;
+	line-height: inherit;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #505050;
+}
+
+.container input,
+.container textarea{
+	float: left;
+	width: 80%;
+	height: inherit;
+	border: none;
+	outline: none;
+	resize:none;
+	padding: 0;
+	/*background: #A6A6A6;*/
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 25px;
+	text-indent: 10px;
+	border-bottom-right-radius: 16px;
+	border-top-right-radius: 16px;
+}
+.container textarea{
+	/*margin-left: 10px;*/	
+}
+
+.project-box .in-pro,
+.detail-box .in-det,
+.mem-box .in-mem{
+	width: 80%;
+	background: #fff;
+	border-radius: 16px;
+	margin: 0 auto;
+}
+
+.project-box .in-pro{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+.project-box .select-pro{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.select-pro li{
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	background: #1DBF96;
+	text-align: center;
+	border-radius: 16px;
+}
+
+.select-pro .pro:first-child{
+	margin-left: 55px;
+}
+
+.detail-box .in-det{
+	height: 100px;
+	line-height: 100px;
+	margin-bottom: 20px;
+}
+
+.mem-box .in-mem{
+	height: 40px;
+	line-height: 40px;
+	border-radius: 16px;
+}
+
+.mem-box .select-mem{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.select-mem .mem{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.select-mem .mem:first-child{
+	padding-left: 55px;
+}
+
+.select-mem .mem img{
+	width: 34px;
+	height: 34px;
+	border-radius: 17px;
+	overflow: hidden;
+}
+
