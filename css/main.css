@@ -124,11 +124,18 @@ footer .foot-wrap{
 	color: #505050;
 }
 
-footer span,
-footer p{
+footer i{
 	color: #505050;
+	font-size: 16px;
+	line-height: 50px;
 	letter-spacing: 0.5em;
 }
+
+/*footer p{
+	color: #505050;
+	letter-spacing: 0.5em;
+	line-height: 50px;
+}*/
 
 footer .count,
 footer .figure{
