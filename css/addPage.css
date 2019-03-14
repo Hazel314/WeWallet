@@ -21,6 +21,7 @@ body {
 	line-height: 50px;
 	float: left;
 	margin-left: 25px;
+	cursor: pointer;
 }
 
 .nav-confirm .fa-check {
@@ -29,6 +30,7 @@ body {
 	line-height: 50px;
 	float: right;
 	margin-right: 25px;
+	cursor: pointer;
 }
 
 .price-input {
@@ -84,7 +86,6 @@ body {
 	outline: none;
 	resize: none;
 	padding: 0;
-	/*background: #A6A6A6;*/
 	font-size: 16px;
 	font-family: "微软雅黑";
 	line-height: 25px;

@@ -1,147 +1,112 @@
-body{
-	/*position: relative;*/
-	background-color: #f3f3f3;
-	
-}
-
-.number,.text,p{
-	font-family: "微软雅黑";
-	color: white;
-	font-size: 14px;
-	line-height: 1.5;
-}
-
-.hr{
-	height: 1px;
-}
-
 header{
 	width: 100%;
 	height: 50px;
 	background-color: #1dbf96;
 }
 
-.main-wrapper{
-	background-color: #f3f3f3;
+.banner{
+	/*position: relative;*/
 }
 
-.daily-wrap .nav{
-	height: 25px;
+.banner i{
+	color: #ffffff;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-right: 10px;
+	line-height: 50px;
+	float: left;
+	/*letter-spacing: 0.5em;*/
 }
 
-.daily-wrap .nav p{
-	line-height: 25px;
-	font-size: 12px;
-	color: #808080;
-	margin-left: 10px;
+.banner #figure-sum{
+	/*margin-left: 50px;*/
+	font-size: 26px;
+	font-family: "微软雅黑";
+	line-height: 48px;
+	float: left;
+	width: 30px;
 }
 
-.daily-wrap .daily-sum{
+/*.item-box{
+	position: relative;
+}*/
+
+.item-box .checkBox,
+.banner #checkAll{
+	border-radius: 4px;
+	width: 16px;
+	height: 16px;
+	margin: 23px 12px 0 0 ;
+	float: right;
+}
+
+.banner #checkAll{
+	margin-top: 18px;
+}
+
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #e9e7e7;
+}
+
+.confirm-wrap #cancle,
+.confirm-wrap #finish {
+	font-size: 40px;
+	color: #1fbf96;
+	line-height: 60px;
+	width: 40px;
+	cursor: pointer;
+}
+
+#cancle{
+	float: left;
+	margin-left: 27px;
+}
+
+#finish {
 	float: right;
 	margin-right: 25px;
 }
 
-.daily-bills .item-box{
-	height: 64px;
-	background-color: #fff;
-	/*border-bottom: 1px solid;*/
-	line-height: 64px;
-}
 
-.item-box .mem-pic{
-	width: 36px;
-	height: 36px;
-	float: left;
-	margin-left: 17px;
-	margin-top: 14px;
-	border-radius: 18px;
-	overflow: hidden;
-}
 
-.item-box .event{
-	color: #000;
-	font-size: 16px;
-	letter-spacing: 0.1em;
-	float: left;
-	margin-left: 16px;
-}
-
-.item-box .price{
-	color: #000;
-	font-size: 16px;
-	float: right;
-	margin-right: 37px;
-}
-
-.item-box .checkBox{
+/*修改选框样式*/
+/*.item-box .checkBox[type=checkbox]+span{
+	display: inline-block;
+	border-radius: 4px;
 	width: 16px;
 	height: 16px;
-	margin-right: 13px;
-	margin-top: 25px;
-	background-color: #1dbf96;
-	border-radius: 0;
-	border: none;
-	float: right;
-}
-.item-box .state{
-	width: 14px;
-	height: 14px;
-	margin-right: 13px;
-	margin-top: 25px;
-	background-color: #1dbf96;
-	border-radius: 7px;
-	float: right;
-}
-
-.item-box .invalid{
-	background-color: #a6a6a6;
-}
-
-footer{
-	position: fixed;
-	height: 60px;	
-	bottom: 0;
-	width: 100%;	
-}
-
-footer .foot-wrap{
+	border: 1px solid #22bf96;
+	color: #22bf96;
 	position: absolute;
-	width: 100%;
-	height: 50px;
-	bottom: 0;
-	background-color: #e9e7e7;
-	color: #505050;
+	top: 23px;
+	right: 12px;
 }
 
-footer i{
-	color: #505050;
-	font-size: 16px;
-	line-height: 50px;
-	letter-spacing: 0.5em;
+.banner #checkAll[type=checkbox]+label{
+	display: inline-block;
+	border-radius: 6px;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	position: absolute;
+	right: 12px;
+	top: 16px;
 }
 
-footer .count,
-footer .figure{
-	width: 50%;
-	float: left;
-	text-align: center;
-	line-height: 50px;
+.checkBox:checked+span:after {
+	content: '\2714';
+	position: absolute;
+	font-size: 18px;
+	top:-24px;
 }
 
-footer .add-box{
-	position: relative;
-	width: 60px;
-	margin: 0 auto;
-}
-
-.add-box .add-btn{
-	border: none;
-}
-
-.add-btn img{
-	display: block;
-	width: 60px;
-	height: 60px;
-	
-}
-
+#checkAll:checked+label:after {
+	content: '\2744';
+	position: absolute;
+	font-size: 18px;
+	top:-2px;
+}*/

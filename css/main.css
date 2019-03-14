@@ -106,8 +106,6 @@ header .show-expend{
 }
 
 
-
-
 footer{
 	position: fixed;
 	height: 60px;	
@@ -143,6 +141,7 @@ footer .figure{
 	float: left;
 	text-align: center;
 	line-height: 50px;
+	cursor: pointer;
 }
 
 /*.count.pic{

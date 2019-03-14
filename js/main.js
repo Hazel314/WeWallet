@@ -16,13 +16,18 @@ $(document).ready(function(){
 		dailySumBox.innerHTML = dailySum;
 	}
 	
-	
-	
-	
 	//add
 	$(".add-btn").click(function(){
 		window.location.href = "addPage.html";
 	});
+	
+	//统计count
+	
+	//结算figure
+	$(".figure").click(function(){
+		window.location.href = "figurePage.html";
+	});
+	
 	
 	
 })
