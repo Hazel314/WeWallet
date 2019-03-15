@@ -51,7 +51,7 @@ footer {
 	background-color: #e9e7e7;
 }
 
-.confirm-wrap #cancle,
+.confirm-wrap #home,
 .confirm-wrap #finish {
 	font-size: 40px;
 	color: #1fbf96;
@@ -60,7 +60,7 @@ footer {
 	cursor: pointer;
 }
 
-#cancle{
+#home{
 	float: left;
 	margin-left: 27px;
 }

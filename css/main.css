@@ -1,7 +1,6 @@
 body{
 	/*position: relative;*/
 	background-color: #f3f3f3;
-	
 }
 
 .number,.text,p{
@@ -82,6 +81,10 @@ header .show-expend{
 	letter-spacing: 0.1em;
 	float: left;
 	margin-left: 16px;
+	width: 50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .item-box .price{
@@ -144,19 +147,6 @@ footer .figure{
 	cursor: pointer;
 }
 
-/*.count.pic{
-	float: left;
-	width: 28px;
-	height: 28px;
-	background: url(../img/Stats.png);
-}
-
-.figure.pic{
-	background: url(../img/money.png);
-	width: 28px;
-	height: 28px;
-}*/
-
 footer .add-box{
 	position: relative;
 	width: 60px;
@@ -171,6 +161,5 @@ footer .add-box{
 	display: block;
 	width: 60px;
 	height: 60px;
-	
 }
 

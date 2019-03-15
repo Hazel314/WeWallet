@@ -74,18 +74,19 @@ window.onload = function(){
 	
 	//统计选择情况，n为选择的个数
 	function checkNums(){
-		var n = 0;
-		for (var j=0 ; j<items.length ; j++) {
-			if(items[j].checked){
-				n += 1;
-			}
-		}
+		var n = $(".checkBox:checked").length;
+//		var n = 0;
+//		for (var j=0 ; j<items.length ; j++) {
+//			if(items[j].checked){
+//				n += 1;
+//			}
+//		}
 		return n;
 	}
 	
-	//cancle
-	$("#cancle").click(function() {
-		//console.log("cancle");
+	//home
+	$("#home").click(function() {
+		//console.log("home");
 		window.history.back(-1);
 	})
 	
