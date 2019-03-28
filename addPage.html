@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 		<script src="js/jquery-3.3.1/jquery-3.3.1.js"></script>
+		<script src="layDate-v5.0.9/laydate/laydate.js"></script>
 		<script type="text/javascript" src="js/addPage.js"></script>
 		
 	</head>
@@ -24,7 +25,7 @@
 		</div>
 		<div class="container">
 			<div class="project-box">
-				<div class="in-pro">
+				<div class="in-pro input-box">
 					<p>项目</p>
 					<div class="ver"></div>
 					<input type="text" id="project"/>
@@ -37,15 +38,23 @@
 					<li class="pro">房租</li>
 				</ul>
 			</div>
+			<div class="time-box">
+				<div class="in-time input-box">
+					<p>时间</p>
+					<div class="ver"></div>
+					<input type="text" id="date"/>
+					<!--<i class="fa-calendar" id="calendar"></i>-->
+				</div>
+			</div>
 			<div class="detail-box">
-				<div class="in-det">
+				<div class="in-det input-box">
 					<p>备注</p>
 					<div class="ver"></div>
 					<textarea id="detail" cols="30" rows="10"></textarea>
 				</div>
 			</div>
 			<div class="mem-box">
-				<div class="in-mem">
+				<div class="in-mem input-box">
 					<p>人员</p>
 					<div class="ver"></div>
 					<ul id="member"></ul>

@@ -21,6 +21,15 @@ window.onload = function() {
 		})(i)
 	}
 	
+	//date
+  	//执行一个laydate实例
+	laydate.render({
+		elem: '#date' //指定元素
+		 ,value: new Date()  //获取系统当前时间
+	});
+	
+	
+	
 	//member
 	var memPicArr = ["img/mem1.jpg" , "img/mem2.jpg" , "img/mem3.jpg" , "img/mem4.jpg"];
 	var memArr = ["y" , "h" , "m" , "c"];

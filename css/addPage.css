@@ -94,19 +94,19 @@ body {
 	border-top-right-radius: 16px;
 }
 
-.project-box .in-pro,
-.detail-box .in-det,
-.mem-box .in-mem {
+.input-box {
 	width: 80%;
 	background: #fff;
 	border-radius: 16px;
 	margin: 0 auto;
+	margin-top: 15px;
+	
 }
 
-.project-box .in-pro {
+.project-box .in-pro ,
+.time-box .in-time{
 	height: 40px;
 	line-height: 40px;
-	margin-top: 10px;
 }
 
 .project-box .select-pro {
@@ -130,10 +130,11 @@ body {
 	margin-left: 55px;
 }
 
+
+
 .detail-box .in-det {
 	height: 100px;
 	line-height: 100px;
-	margin-bottom: 20px;
 }
 
 .mem-box .in-mem {

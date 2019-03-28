@@ -16,6 +16,10 @@ $(document).ready(function(){
 		dailySumBox.innerHTML = dailySum;
 	}
 	
+	//head
+	
+	
+	
 	//add
 	$(".add-btn").click(function(){
 		window.location.href = "addPage.html";
