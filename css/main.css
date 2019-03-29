@@ -14,6 +14,10 @@ body{
 	height: 1px;
 }
 
+.delete{
+	display: none;
+}
+
 header{
 	width: 100%;
 	height: 160px;

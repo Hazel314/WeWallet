@@ -84,28 +84,51 @@ window.onload = function() {
 	
 	//cancle
 	$("#cancle").click(function() {
-		//		console.log("cancle");
+		//console.log("cancle");
 		window.history.back(-1);
 	})
 
 	//finish
 	$("#finish").click(function() {
-		var proText = $("#project").val();//$.trim(string)输入框内容去掉首尾空格后
+		var project = $("#project").val();//$.trim(string)输入框内容去掉首尾空格后
 		
-		var priceText = $("#price").val();
+		var price = $("#price").val();
+		var date = $("#date").val();
+		var detail = $("#detail").val();
 		
 		$("#member>.mem").each(function(){
    			memSelected.push($(this).attr("id")); 
 		})
-		if ($.trim(priceText).length == 0){
-			alert("$.trim(priceText).length == 0");//金额不能为空
-		} else if ($.trim(proText).length == 0) {
-			alert("$.trim(proText).length == 0");//项目不能为空
+		if ($.trim(price).length == 0){
+			alert("金额不能为空");	//金额不能为空
+		} else if ($.trim(project).length == 0) {
+			alert("项目不能为空");	//项目不能为空
+		} else if ($.trim(date).length == 0) {
+			alert("时间不能为空");	//时间不能为空
 		} else if (memSelected.length == 0){
-			alert("memSelected.length == 0");//人员不能为空
+			alert("人员不能为空");	//人员不能为空
 		} else{
 			window.location.href = "index.html";
-		}		
+
+			//提交
+			$.ajax({
+				type:"get",
+				url:"/bill/addBill",
+				data:{
+					"name":project,//账单名称(不为空)
+					"sum":price,//金额总数(不为空)
+					"userlist":memSelected,//账单人员列表(不为空)
+					"user":"yang"//账单创建人员(不为空)
+						//账单时间（不为空）date
+						//备注说明（可为空）detail
+
+				},
+				dataType:"json",
+				success:function () {
+					
+				}
+			});
+		}
 	})
 	
 }
