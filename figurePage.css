@@ -1,0 +1,44 @@
+header{
+	width: 100%;
+	height: 50px;
+	background-color: #1dbf96;
+}
+
+.banner{
+	/*position: relative;*/
+}
+
+.banner i{
+	color: #ffffff;
+	font-size: 28px;
+	margin-left: 20px;
+	margin-right: 10px;
+	line-height: 50px;
+	float: left;
+	/*letter-spacing: 0.5em;*/
+}
+
+.banner #figure-sum{
+	/*margin-left: 50px;*/
+	font-size: 26px;
+	font-family: "微软雅黑";
+	line-height: 48px;
+	float: left;
+	width: 30px;
+}
+
+.item-box .checkBox,
+.banner #checkAll{
+	width: 16px;
+	height: 16px;
+	margin: 23px 12px 0px 0px;
+	background-color: #1dbf96;
+	border: none;
+	border-radius: 0;
+	float: right;
+}
+
+.banner #checkAll{
+	/*position: absolute;*/
+	margin: 18px 12px 0px 0px;
+}
